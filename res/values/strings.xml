@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">RadarApp</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="Doppler" translatable="false">Start Doppler</string>
+    <string name="title_activity_simple_graph" translatable="false">SimpleGraph</string>
+    <string name="title_activity_dynamic_graph" translatable="false">DynamicGraph</string>
+    <string name="title_activity_fft_graph" translatable="false">FftGraph</string>
+    <string name="MSc_Project">QMUL MSc Project</string>
+    <string name="fftValues">Next Velocity</string>
+    <string name="title_activity_doppler">DopplerActivity</string>
+    <string name="title_activity_range">Range</string>
+    
+    <string name="title_activity_file_dialog">FileDialog</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <color name="gray">#ffff0000</color>
+    <string name="err">Error</string>
+    <string name="choose_file">Choose File</string>
+    
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/my_color">"
+
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+        <LinearLayout 
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center" />
+               
+               <Button
+                   android:id="@+id/chooseFile"
+                   android:layout_width="300dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginBottom="20dp"
+                   android:layout_marginTop="30dp"
+                   android:gravity="center"
+                   android:text="@string/choose_file"
+                   android:background="@drawable/gradient2" />
+               
+               <Button
+                   android:id="@+id/startDoppler"
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginBottom="10dp"
+                   android:layout_marginTop="30dp"
+                   android:gravity="center"
+                   android:text="@string/title_activity_simple_graph"
+                   android:background="@drawable/gradient2" />
+
+               <Button
+                   android:id="@+id/startDynamicGraph"
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginBottom="10dp"
+                   android:layout_marginTop="20dp"
+                   android:gravity="center"
+                   android:text="@string/title_activity_dynamic_graph"
+                   android:background="@drawable/gradient2" />
+
+               <Button
+                   android:id="@+id/FftGraph"
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginBottom="10dp"
+                   android:layout_marginTop="20dp"
+                   android:gravity="center"
+                   android:text="@string/title_activity_fft_graph"
+                   android:background="@drawable/gradient2" />
+               
+            
+            </LinearLayout>
+    </ScrollView>
+    
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:autoLink="web"
+        android:gravity="center"
+        android:text="@string/MSc_Project" />
+
+</LinearLayout>
